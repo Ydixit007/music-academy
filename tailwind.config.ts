@@ -19,6 +19,7 @@ const config: Config = {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        aurora: "aurora 60s linear infinite",
       },
       keyframes: {
         spotlight: {
@@ -29,6 +30,14 @@ const config: Config = {
           "100%": {
             opacity: "1",
             transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
           },
         },
         scroll: {
@@ -54,7 +63,7 @@ function addVariablesForColors({ addBase, theme }: any) {
   });
 }
 
-function backgroundSvg ({ matchUtilities, theme }: any) {
+function backgroundSvg({ matchUtilities, theme }: any) {
   matchUtilities(
     {
       "bg-grid": (value: any) => ({
