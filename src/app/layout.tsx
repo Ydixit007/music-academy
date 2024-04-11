@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Music Academy - The best music academy.",
+  title: "Encore Music Academy - The best music academy.",
   description: `Welcome to Music Academy, where passion meets expertise! As the premier destination for music education, we pride ourselves on being the best music academy dedicated to nurturing talent and fostering musical excellence.
 
   At Music Academy, we offer a comprehensive range of courses tailored to musicians of all levels, from beginners to advanced performers. Our team of highly skilled instructors brings a wealth of experience and a deep commitment to helping students achieve their musical aspirations.
