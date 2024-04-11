@@ -23,7 +23,7 @@ const Page = () => {
         </h1>
         <div className="courses-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12">
           {courseData.courses.map((course: Course) => (
-            <FeaturedCard course={course} />
+            <FeaturedCard key={course.id} course={course} />
           ))}
         </div>
       </div>
