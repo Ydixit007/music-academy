@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
       description: (
         <>
           <p>
-            Embark on a musical journey that's uniquely yours. Our personalized
+            Embark on a musical journey that is uniquely yours. Our personalized
             instruction adapts to your individual needs, setting the stage for
             unparalleled growth and creativity. At our music school, your
             aspirations meet our dedicated support, creating a harmonious path
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
         <>
           <p>
             With our expansive resource library and dynamic course offerings,
-            you'll never find yourself without something new to explore. Our
+            you will never find yourself without something new to explore. Our
             platform provides continuous opportunities for growth, ensuring your
             musical skills are always advancing.
           </p>

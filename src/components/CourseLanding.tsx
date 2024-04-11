@@ -23,7 +23,7 @@ const CourseLanding = () => {
         >
           Find the Beat, Learn the Treat - <br /> Our Music Courses <br />{" "}
           <Highlight className="text-black dark:text-white">
-            Can't Be Beat!
+            Cant Be Beat!
           </Highlight>
         </motion.h1>
       </HeroHighlight>
